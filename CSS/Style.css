@@ -6,3 +6,45 @@
 footer .copyright{
     margin-bottom: auto;
 }
+
+h1{
+    font-size: 50px;
+}
+
+/*button*/
+.navbtn {
+    box-shadow: 6px 6px 5px rgb(85, 68, 45);
+    border: 2px solid rgb(56, 45, 22);
+    border-radius: 50px;
+    background-color: bisque;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    color: black;
+    cursor: pointer;
+    margin: 30px 10px;
+ }
+
+.navbtn:active {
+    box-shadow: 3px 3px 3px rgb(85, 68, 45);
+}
+
+nav {
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*icon*/
+.Homesvg{
+    width: 90px;
+}
