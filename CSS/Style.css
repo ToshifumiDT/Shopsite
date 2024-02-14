@@ -13,27 +13,27 @@ h1{
 
 /*button*/
 .navbtn {
-    box-shadow: 6px 6px 5px rgb(85, 68, 45);
-    border: 2px solid rgb(56, 45, 22);
+    box-shadow: 6px 6px 5px #000000a6;
+    border: 2px solid rgb(65, 60, 44);
     border-radius: 50px;
-    background-color: bisque;
+    background-color: rgba(255, 237, 187, 0.651);
     font-size: 20px;
     height: 40px;
     width: 120px;
-    color: black;
+    color: hsl(0, 0%, 0%);
     cursor: pointer;
     margin: 30px 10px;
  }
 
 .navbtn:active {
-    box-shadow: 3px 3px 3px rgb(85, 68, 45);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.700);
 }
 
 nav {
     height: 100px;
     position: sticky;
     top: 0;
-    background-color: antiquewhite;
+    background-color: hsla(36, 100%, 67%, 0.637);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
