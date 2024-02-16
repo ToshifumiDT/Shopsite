@@ -23,6 +23,23 @@
     width: 150px;
 }
 /*Container*/
+
+#container1{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgb(255, 211, 155);
+    text-align: center;
+}
+
 #container2{
-    background-color: hsla(36, 100%, 80%, 0.637);
+    margin: 10px 0;
+    background-color: rgb(255, 211, 155);
+    text-align: center;
+}
+
+#container3{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgb(255, 211, 155);
+    text-align: center;
 }
