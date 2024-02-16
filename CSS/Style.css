@@ -10,7 +10,7 @@ h1{
 /*button*/
 @media screen and (min-width: 800px) {
     .navbtn {
-        box-shadow: 6px 6px 5px #000000a6;
+        box-shadow: 6px 6px 4px #000000a6;
         border: 2px solid rgb(65, 60, 44);
         border-radius: 20px;
         background-color: rgba(255, 237, 187, 0.651);
