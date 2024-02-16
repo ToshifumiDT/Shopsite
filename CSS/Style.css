@@ -3,10 +3,6 @@
     margin:0%
 }
 /*header*/
-footer .copyright{
-    margin-bottom: auto;
-}
-
 h1{
     font-size: 50px;
 }
@@ -33,7 +29,7 @@ nav {
     height: 100px;
     position: sticky;
     top: 0;
-    background-color: hsla(36, 100%, 67%, 0.637);
+    background-color: hsla(36, 100%, 80%, 0.637);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -48,3 +44,14 @@ a {
 .Homesvg{
     width: 90px;
 }
+
+.copyright{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+ body{
+    background-color: rgb(255, 244, 230);
+  }
